@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Latest font-awesome CDN -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="parallax/parallax.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<nav class="navbar" id="navbar">
+		<div class="container">
+			<a class="navbar-left navbar-brand logo " href="#">SK</a>
+
+			<div class="col-md-offset-4">
+			<ul class="nav navbar-nav navbar-right">
+				<a class="navbar-brand sliding-middle-out" href="#">HOME</a>
+				<a class="navbar-brand sliding-middle-out" href="#" onclick="smoothScroll(document.getElementById('about-me'))">ABOUT ME</a>
+				<a class="navbar-brand sliding-middle-out" href="#" onclick="smoothScroll(document.getElementById('education-row'))">EDUCATION</a>
+				<a class="navbar-brand sliding-middle-out" href="#" onclick="smoothScroll(document.getElementById('skill-row'))">SKILL</a>
+				<a class="navbar-brand sliding-middle-out" href="#" onclick="smoothScroll(document.getElementById('project-row'))">PROJECTS</a>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="img-row" id="img-row">
+		<div class="portfolio-img">
+			<div class="first">
+				<img src="images/portfolio-img.jpg" class="img-responsive img-circle" alt="">
+			</div>
+			<div class="two">
+				<span class="my-first-name">SHAQUIB</span> <span class="my-sir-name"> KHAN</span>	
+			</div>
+				<div class="three">
+					<a href="#about-me" onclick="smoothScroll(document.getElementById('about-me'))"><i class="fa fa-caret-square-down"></i></a>	
+				</div>
+				
+			</div>
+	</div>
+	<div class="about-me" id="about-me">
+		<div class=" container-fluid">
+			<div class="text-center about-me-header col-sm-12 col-xs-12">
+				<i class="fas fa-user"></i>
+				<span class="about-me-name sliding-middle-out">About me</span>
+				<hr>
+			</div>
+				<div class="col-md-12">
+					<div class="row">
+				<div class="para col-md-6 col-sm-12 col-xs-12">
+					<p class="about-me-content">I as an individual has always looked forward to learn from my experiences and I am still doing the same.With decent academy record, I have pushed myself to train practically.</p> 
+					<p class="about-me-content">Currently working in an IT industry as a front end web developer with skill set of HTML5 , CSS , JS , Bootstrap.</p>
+					<div class="row">
+						<div class="col-md-3 col-xs-12">
+					<div class="social-network text-center">
+						<div class="inline linked-in">
+							<a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+						</div>
+						<div class=" inline github">
+							<a href=""><i class="fab fa-github-square"></i></a>
+						</div>
+						<div class="inline twitter">
+							<a href=""><i class="fab fa-twitter-square"></i></a>
+						</div>
+						<div class="inline facebook">
+							<a href=""><i class="fab fa-facebook"></i></a>
+						</div>
+						</div>
+						</div>
+						</div>
+				</div>
+				<div class="contacts col-md-6">
+					<div class="row">
+					 <i class="fas fa-envelope-square"></i>
+					  <span class="contacts-info">connectshaquib@gmail.com</span>
+					</div>
+					<hr>
+						<div class="row ">
+							<i class="fas fa-map-marker"></i>
+					         <span class="contacts-info">Maharashtra, PUNE , India</span>
+						</div>
+						<hr>
+						<div class="row ">
+							<i class="fas fa-mobile"></i>
+					         <span class="contacts-info">+91-8210479097</span>
+						</div>
+						<hr>
+						
+				</div>
+			</div>
+				</div>
+		</div>
+	</div>
+	<div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax-img.jpeg">	
+	</div>
+	<div class="education-row" id="education-row">
+		<div class="container">
+			<div class="row">
+				<div class="education-header text-center">
+					<i class="fa fa-graduation-cap"></i>
+						  <span class="sliding-middle-out" id="education-header">Education</span>
+						  <hr>
+				</div>
+			</div>
+			<div class="container education-content">
+					<div class="row">
+						<div class="col-md-3 college text-center jquery-effect hoverlay-img-1">
+							<i class="fa fa-graduation-cap"></i>
+							<h3>Bachelor of Technology</h3>
+							<h5>AFU,Faridabad, New-Delhi</h>
+        				<div class="overlay">
+						    <div class="text">M.D.U <br> 61.3%</div>
+						</div>
+						</div>
+						<div class="col-md-offset-1 col-md-3 school text-center hoverlay-img-1">
+							<i class="fa fa-graduation-cap"></i>
+							<h3>High School</h3>
+							<h5>ST.Karen's High School</h5>
+							<div class="overlay">
+						    <div class="text">I.C.S.E <br> 62.3%</div>
+						</div>
+						</div>
+						<div class="col-md-offset-1 col-md-3 col-md-offset-1 course text-center hoverlay-img-1">
+							<i class="fa fa-graduation-cap"></i>
+							<h3>Acadgild</h3>
+							<h5>Bengaluru</h5>
+							<div class="overlay">
+						    <div class="text">Online course <br> 91.3%</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax-img-2.jpeg">	
+	</div>
+	<div class="skill-row" id="skill-row">
+		<div class="container">
+			<div class="row">
+				<div class="skill-header text-center">
+ 						<i class="fas fa-cogs"></i>
+						  <span class="sliding-middle-out" id="">Skill</span>
+						  <hr>
+				</div>
+				<div class="col-md-offset-4 col-md-4 skill-bar">
+				<h4>HTML</h4>					 	 	 		
+		<div class="progress">
+		  <div class="progress-bar progress-bar-info progress-bar-striped infinite animated slideInLeft" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+		    <span class="sr-only">50% Complete (success)</span>
+		  </div>
+		</div>
+								<h4>CSS</h4>
+		<div class="progress">
+		  <div class="progress-bar progress-bar-info progress-bar-striped infinite animated slideInLeft" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+		    <span class="sr-only">40% Complete</span>
+		  </div>
+		</div>
+										<h4>JAVASCRIPT</h4>
+		<div class="progress">
+		  <div class="progress-bar progress-bar-info progress-bar-striped infinite animated slideInLeft" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+		    <span class="sr-only">20% Complete (warning)</span>
+		  </div>
+		</div> 
+								<h4>BOOTSTRAP</h4>
+		<div class="progress">
+		  <div class="progress-bar progress-bar-info progress-bar-striped infinite animated slideInLeft" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+		    <span class="sr-only">40% Complete (danger)</span>
+					</div>
+				</div>
+				</div>
+				<div class="row col-md-12 skill-attribute">
+					<div class="row">
+						<div class="coding-tab col-md-6">
+						<h3 class="text-center"><i class="fa fa-code "></i> Coding</h3>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<div class="web-tab col-md-6">
+						<h3 class="text-center"><i class="fas fa-desktop"></i> Web Development</h3>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="coding-tab col-md-6">
+						<h3 class="text-center"><i class="fas fa-database"></i> Database</h3>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<div class="web-tab col-md-6">
+						<h3 class="text-center"><i class="fas fa-mobile-alt"></i> Design</h3>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+					</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="parallax-window" data-parallax="scroll" data-image-src="images/parallax-img-3.jpg">	</div>
+	<div class="project-row" id="project-row">
+		<div class="container">
+			<div class="col-md-12">
+			<div class="row">
+				<div class="project-header text-center">
+ 						<i class="fa fa-code "></i>
+						  <span class="sliding-middle-out" id="project-header">Projects</span>
+						  <hr>
+				</div>
+			</div>
+				<div class="project-flex">
+					<div class="row">
+				<div class="col-md-2 well text-center project-row-google-paper">
+				<h5>IPL-Project</h5>
+				<img src="images/project-1.png" class="img-responsive" alt="">
+			    </div>
+				<div class="col-md-offset-1 col-md-2 well text-center project-row-google-paper">
+				<h5>Shop-Hub</h5>
+				<img src="images/project-2.png" class="img-responsive" alt="">
+			    </div>
+				<div class="col-md-offset-1 col-md-2 well text-center project-row-google-paper">
+				<h5>Number-Game</h5>
+				<img src="images/project-3.png" class="img-responsive" alt="">
+			    </div>
+				<div class="col-md-offset-1 col-md-2 well text-center project-row-google-paper">
+				<h5>Baristo Coffee</h5>
+				<img src="images/project-4.png" class="img-responsive" alt="">
+				</div>
+			</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="text-center">
+		<a href="#img-row"><i class="fas fa-angle-double-up"></i></a>
+	</div>
+		<footer class="col-xs-12">
+		<div class="">
+			<p>&copy; 2017 shaQuib Ahmad Khan.</p><p> All Rights Reserved.This site is built with CSS, HTML5 , BOOTSTRAP , JAVASCRIPT & JQUERY only. Frameworks/Libraries, Images, fonts and design used in this project are either Open Source/Free or my personal property.
+		<div class="">		</div>
+		</div>
+	</footer>
+
+<script>	
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	<script src="js/action.js"></script>
+</body>
+</html>
